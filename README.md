@@ -19,7 +19,7 @@ $provider = new \Awx\OAuth2\Client\Provider\GenericProvider([
     // The client given in AWX when you create an application with authorization grant type "Resource owner password-based
     'clientId'                => AWX_CLIENT_ID,
     'clientSecret'            => AWX_CLIENT_SECRET,
-    'urlAccessToken'          => https://<Ansible Tower IP or URL>/api/o/token/',
+    'urlAccessToken'          => 'https://<Ansible Tower IP or URL>/api/o/token/',
     'verify'                  => false, //Set to false for development and true after you obtain SSL certificates
     'urlAuthorize'            => null,
     'urlResourceOwnerDetails' => null,
